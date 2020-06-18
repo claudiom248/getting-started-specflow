@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedSpecflow", "GettingStartedSpecflow\GettingStartedSpecflow.csproj", "{72C71507-7A35-49A0-9DA1-47B7DE672F2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedSpecflow.Specifications", "GettingStartedSpecflow.Specifications\GettingStartedSpecflow.Specifications.csproj", "{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,18 @@ Global
 		{72C71507-7A35-49A0-9DA1-47B7DE672F2D}.Release|x64.Build.0 = Release|Any CPU
 		{72C71507-7A35-49A0-9DA1-47B7DE672F2D}.Release|x86.ActiveCfg = Release|Any CPU
 		{72C71507-7A35-49A0-9DA1-47B7DE672F2D}.Release|x86.Build.0 = Release|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Debug|x64.Build.0 = Debug|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Debug|x86.Build.0 = Debug|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Release|x64.ActiveCfg = Release|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Release|x64.Build.0 = Release|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Release|x86.ActiveCfg = Release|Any CPU
+		{1E353BAC-C13A-43D5-AAAE-95C59DCEA0FC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
