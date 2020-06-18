@@ -2,19 +2,25 @@
 {
     public class OhmsLawCalculator
     {
-        public double CalculateVoltage(double current, double resistance)
+        public double Voltage { get; set; }
+
+        public double Current { get; set; }
+
+        public double Resistance { get; set; }
+
+        public double CalculateVoltage()
         {
-            return current * resistance;
+            return Current * Resistance;
         }
 
-        public double CalculateCurrent(double voltage, double resistance)
+        public double CalculateCurrent()
         {
-            return voltage / resistance;
+            return Voltage / Resistance;
         }
 
-        public double CalculateResistance(double voltage, double current)
+        public double CalculateResistance()
         {
-            return voltage / current;
+            return Voltage / Current;
         }
     }
 }
