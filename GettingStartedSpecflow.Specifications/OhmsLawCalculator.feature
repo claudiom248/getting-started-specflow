@@ -3,12 +3,11 @@
 	As an electonic engineer idiot
 	I want to be told the results of the first Ohm's law formula
 
-@mytag
 Scenario: Calculate voltage
 	Given I have entered 150 into the calculator as value for current
 	And I have entered 50 into the calculator as value for resistance
 	When I press calculate
-	Then the result should be 750 on the screen
+	Then the result should be 7500 on the screen
 
 Scenario: Calculate current
 	Given I have entered 100 into the calculator as value for voltage
